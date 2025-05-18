@@ -1,0 +1,19 @@
+[package]
+name = "ragc"
+version = "0.1.0"
+authors = ["Om Dighe"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.3"
+log = "0.4"
+ctrlc = "3.2.0"
+heapless = "0.7"
+env_logger = "0.8.4"
+crossbeam-channel = "0.5"
+ragc-core = { path = "../ragc-core" }
+ragc-binaries = { path = "../ragc-binaries" }
+ragc-peripherals = { path = "../ragc-peripherals", features = [
+    "vagc-periph",
+    "std",
+] }

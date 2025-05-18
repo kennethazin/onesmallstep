@@ -1,0 +1,19 @@
+[package]
+name = "ragc-peripherals"
+version = "0.1.0"
+authors = ["Om Dighe"]
+edition = "2018"
+
+[dependencies]
+ragc-core = { path = "../ragc-core" }
+dsky-protocol = { path = "../dsky-protocol" }
+heapless = { optional = true, version = "0.7" }
+defmt = { optional = true, version = "0.3" }
+crossbeam-channel = { optional = true, version = "0.5" }
+log = { optional = true, version = "0.4" }
+
+[features]
+default = []
+std = []
+heapless-periph = ["heapless"]
+vagc-periph = ["crossbeam-channel", "log"]
