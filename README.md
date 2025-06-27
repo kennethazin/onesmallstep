@@ -2,7 +2,7 @@
 
 ## Note
 
-Read docs for additional documentation and how to run this project from scratch (docs/documentation/user_manual). Feel free to Watch this [video demo](https://www.youtube.com/watch?v=-aHVYmVKAfw) if you're not able to get this running.
+Read docs for additional documentation and how to run this project from scratch (docs/documentation/user_manual). Feel free to watch this [video demo](https://www.youtube.com/watch?v=-aHVYmVKAfw) if you're not able to get this running.
 
 ## Requirements
 
