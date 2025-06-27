@@ -20,3 +20,7 @@ yarn-error.log*
 
 # VS Code settings
 .vscode/
+
+ragc/ragc/target/debug/
+ragc/ragc/target/debug/*
+ragc/yaDSKY2

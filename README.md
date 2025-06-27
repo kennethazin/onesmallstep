@@ -10,6 +10,8 @@ Alternatively run build:
 `npm run build`
 `node server.js`
 
+or `npm run preview`
+
 If running an orbitcal calcluation
 `cd orbical_calculations`
 `pip install requirements.txt`
@@ -17,5 +19,7 @@ If running an orbitcal calcluation
 
 
 For running server:
-`stdbuf -o0 ./yaDSKY2 >> output.txt` (./yaDSKY2)
-`stdbuf -o0 ./yaDSKY2 >> output.txt` (./yaDSKY2)
+`cargo run -- retread50` (ragc/ragc)
+`stdbuf -o0 ./yaDSKY2 >> output.txt` (ragc/yaDSKY2)
+
+In launch sequence, in the external AGC click `PROG` then look for and click `yaDSKY2/Apollo11-launch.canned` at T-00:52 seconds for accurate launch timing. Otherwise feel free to launch earlier or later!
